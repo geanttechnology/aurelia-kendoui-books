@@ -21,7 +21,7 @@
    * [typescript-asp.net5](developers-tutorials/typescript-aspnet5.md)
    * [webpack](developers-tutorials/webpack.md)
 * [Developers notes](developers_notes.md)
-   * Current limitations
+   * [Current limitations](app-developers-notes/current_limitations.md)
 * [Bridge developers tutorials](bridge_developers_tutorials.md)
 * [Bridge developers notes](bridge_developers_notes.md)
 * [Troubleshooting](troubleshooting.md)
