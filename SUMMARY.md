@@ -8,5 +8,5 @@
 * [Developers notes](developers_notes.md)
 * [Bridge developers tutorials](bridge_developers_tutorials.md)
 * [Bridge developers notes](bridge_developers_notes.md)
-* Troubleshooting
+* [Troubleshooting](troubleshooting.md)
 
