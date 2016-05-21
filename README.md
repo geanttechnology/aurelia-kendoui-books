@@ -1,3 +1,3 @@
-# My Awesome Book
+# Aurelia KendoUI Bridge Docs
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+Recreated from the [catalog](http://aurelia-ui-toolkits.github.io/demo-kendo/#/help) application
