@@ -7,6 +7,7 @@
    * [Components catalog](about-catalog/components_catalog.md)
    * [Installation](about-catalog/installation.md)
    * [Catalog index](about-catalog/catalog_index.md)
+   * Themes selector
 * [About Aurelia](about_aurelia.md)
 * [About KendoUI](about_kendoui.md)
 * [Developers tutorials](developers_tutorials.md)
