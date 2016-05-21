@@ -35,5 +35,6 @@
    * [Grid HTML api](bd-notes/grid_html_api.md)
    * [Template compilation](bd-notes/template_compilation.md)
    * [Harvesting bindable variables](bd-notes/harvesting_bindable_variables.md)
+   * Registry helper class
 * [Troubleshooting](troubleshooting.md)
 
