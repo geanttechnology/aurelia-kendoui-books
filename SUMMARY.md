@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* [About this application](chapter1.md)
+* [About this application](about-this-app.md)
 
