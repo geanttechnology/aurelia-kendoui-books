@@ -32,5 +32,6 @@
    * [Generation of bindables](bd-notes/generation_of_bindables.md)
    * [Babel DTS generator](bd-notes/babel_dts_generator.md)
    * [On bundling](bd-notes/on_bundling.md)
+   * Grid HTML api
 * [Troubleshooting](troubleshooting.md)
 
