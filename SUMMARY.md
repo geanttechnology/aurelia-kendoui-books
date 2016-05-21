@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [About this application](about_this_application.md)
+   * Introduction
 * [About Aurelia](about_aurelia.md)
 * [About KendoUI](about_kendoui.md)
 * [Developers tutorials](developers_tutorials.md)
