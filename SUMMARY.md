@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* About this application
+* [About this application](about_this_application.md)
 * About Aurelia
 * About KendoUI
 * Developers tutorials
