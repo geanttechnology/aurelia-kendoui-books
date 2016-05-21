@@ -14,7 +14,7 @@
    * [Integrated with Aurelia](about-kendoui/integrated_with_aurelia.md)
    * [Why choose KendoUI](about-kendoui/why_choose_kendoui.md)
 * [Developers tutorials](developers_tutorials.md)
-   * Introduction
+   * [Introduction](developers-tutorials/introduction.md)
 * [Developers notes](developers_notes.md)
 * [Bridge developers tutorials](bridge_developers_tutorials.md)
 * [Bridge developers notes](bridge_developers_notes.md)
