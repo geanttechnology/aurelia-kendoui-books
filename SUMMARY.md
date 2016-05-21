@@ -28,5 +28,6 @@
 * [Bridge developers tutorials](bridge_developers_tutorials.md)
 * [Bridge developers notes](bridge_developers_notes.md)
    * [Introduction](bd-notes/introduction.md)
+   * Bridge utilities
 * [Troubleshooting](troubleshooting.md)
 
