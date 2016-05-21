@@ -4,6 +4,7 @@
 * [About this application](about_this_application.md)
    * [Introduction](abaout-catalog/introduction.md)
    * [Navigation guide](about-catalog/navigation_guide.md)
+   * Components catalog
 * [About Aurelia](about_aurelia.md)
 * [About KendoUI](about_kendoui.md)
 * [Developers tutorials](developers_tutorials.md)
