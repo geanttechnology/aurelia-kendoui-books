@@ -12,6 +12,7 @@
    * [Key features](about-aurelia/key_features.md)
 * [About KendoUI](about_kendoui.md)
    * [Integrated with Aurelia](about-kendoui/integrated_with_aurelia.md)
+   * Why choose KendoUI
 * [Developers tutorials](developers_tutorials.md)
 * [Developers notes](developers_notes.md)
 * [Bridge developers tutorials](bridge_developers_tutorials.md)
