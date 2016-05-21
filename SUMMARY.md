@@ -6,7 +6,7 @@
 * [About KendoUI](about_kendoui.md)
 * [Developers tutorials](developers_tutorials.md)
 * [Developers notes](developers_notes.md)
-* Bridge developers tutorials
+* [Bridge developers tutorials](bridge_developers_tutorials.md)
 * Bridge developers notes
 * Troubleshooting
 
