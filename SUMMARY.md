@@ -4,4 +4,5 @@
 * About this application
 * About Aurelia
 * About KendoUI
+* Developers tutorials
 
