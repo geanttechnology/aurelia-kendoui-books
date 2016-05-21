@@ -15,7 +15,7 @@
    * [Why choose KendoUI](about-kendoui/why_choose_kendoui.md)
 * [Developers tutorials](developers_tutorials.md)
    * [Introduction](developers-tutorials/introduction.md)
-   * es2016
+   * [es2016](developers-tutorials/es2016.md)
 * [Developers notes](developers_notes.md)
 * [Bridge developers tutorials](bridge_developers_tutorials.md)
 * [Bridge developers notes](bridge_developers_notes.md)
