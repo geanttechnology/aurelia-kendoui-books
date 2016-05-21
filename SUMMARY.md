@@ -24,6 +24,7 @@
    * [Current limitations](app-developers-notes/current_limitations.md)
    * [Loading a subset of controls](app-developers-notes/loading_a_subset_of_controls.md)
    * [Lazy loading wrappers](app-developers-notes/lazy_loading_wrappers.md)
+   * Running gists
 * [Bridge developers tutorials](bridge_developers_tutorials.md)
 * [Bridge developers notes](bridge_developers_notes.md)
 * [Troubleshooting](troubleshooting.md)
