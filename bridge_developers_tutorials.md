@@ -1,4 +1,4 @@
 # Bridge developers tutorials
 
-# _coming soon_
+# _coming soon ..._
 
