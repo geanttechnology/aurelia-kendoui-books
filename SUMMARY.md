@@ -29,5 +29,6 @@
 * [Bridge developers notes](bridge_developers_notes.md)
    * [Introduction](bd-notes/introduction.md)
    * [Bridge utilities](bd-notes/bridge_utilities.md)
+   * Generation of bindables
 * [Troubleshooting](troubleshooting.md)
 
