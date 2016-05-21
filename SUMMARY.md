@@ -33,6 +33,6 @@
    * [Babel DTS generator](bd-notes/babel_dts_generator.md)
    * [On bundling](bd-notes/on_bundling.md)
    * [Grid HTML api](bd-notes/grid_html_api.md)
-   * Template compilation
+   * [Template compilation](bd-notes/template_compilation.md)
 * [Troubleshooting](troubleshooting.md)
 
