@@ -9,6 +9,7 @@
    * [Catalog index](about-catalog/catalog_index.md)
    * [Themes selector](about-catalog/themes_selector.md)
 * [About Aurelia](about_aurelia.md)
+   * Key features
 * [About KendoUI](about_kendoui.md)
 * [Developers tutorials](developers_tutorials.md)
 * [Developers notes](developers_notes.md)
