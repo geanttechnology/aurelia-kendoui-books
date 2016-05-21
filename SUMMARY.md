@@ -36,5 +36,6 @@
    * [Template compilation](bd-notes/template_compilation.md)
    * [Harvesting bindable variables](bd-notes/harvesting_bindable_variables.md)
    * [Registry helper class](bd-notes/registry_helper_class.md)
+   * Creating gists for the catalog app
 * [Troubleshooting](troubleshooting.md)
 
