@@ -38,5 +38,5 @@
    * [Registry helper class](bd-notes/registry_helper_class.md)
    * [Creating gists for the catalog app](bd-notes/creating_gists_for_the_catalog_app.md)
 * [Troubleshooting](troubleshooting.md)
-   * Introduction
+   * [Introduction](troubleshooting/introduction.md)
 
