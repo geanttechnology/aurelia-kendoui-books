@@ -27,6 +27,6 @@
    * [Running gists](app-developers-notes/running_gists.md)
 * [Bridge developers tutorials](bridge_developers_tutorials.md)
 * [Bridge developers notes](bridge_developers_notes.md)
-   * Introduction
+   * [Introduction](bd-notes/introduction.md)
 * [Troubleshooting](troubleshooting.md)
 
