@@ -6,4 +6,5 @@
 * About KendoUI
 * Developers tutorials
 * Developers notes
+* Bridge developers tutorials
 
