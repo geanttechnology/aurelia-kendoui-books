@@ -5,7 +5,7 @@
    * [Introduction](abaout-catalog/introduction.md)
    * [Navigation guide](about-catalog/navigation_guide.md)
    * [Components catalog](about-catalog/components_catalog.md)
-   * Installation
+   * [Installation](about-catalog/installation.md)
 * [About Aurelia](about_aurelia.md)
 * [About KendoUI](about_kendoui.md)
 * [Developers tutorials](developers_tutorials.md)
