@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [About this application](about_this_application.md)
-   * [Introduction](about-catalog/introduction)
+   * [Introduction](about-catalog/introduction.md/introduction.md)
    * [Navigation guide](about-catalog/navigation_guide.md)
    * [Components catalog](about-catalog/components_catalog.md)
    * [Installation](about-catalog/installation.md)
