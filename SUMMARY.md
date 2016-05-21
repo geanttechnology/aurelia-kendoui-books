@@ -5,4 +5,5 @@
 * About Aurelia
 * About KendoUI
 * Developers tutorials
+* Developers notes
 
