@@ -11,6 +11,7 @@
 * [About Aurelia](about_aurelia.md)
    * [Key features](about-aurelia/key_features.md)
 * [About KendoUI](about_kendoui.md)
+   * About KendoUI
 * [Developers tutorials](developers_tutorials.md)
 * [Developers notes](developers_notes.md)
 * [Bridge developers tutorials](bridge_developers_tutorials.md)
