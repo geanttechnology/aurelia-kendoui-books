@@ -1,0 +1,2 @@
+# Registry helper class
+
