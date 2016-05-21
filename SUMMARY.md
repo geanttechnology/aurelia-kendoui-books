@@ -30,6 +30,6 @@
    * [Introduction](bd-notes/introduction.md)
    * [Bridge utilities](bd-notes/bridge_utilities.md)
    * [Generation of bindables](bd-notes/generation_of_bindables.md)
-   * Babel DTS generator
+   * [Babel DTS generator](bd-notes/babel_dts_generator.md)
 * [Troubleshooting](troubleshooting.md)
 
