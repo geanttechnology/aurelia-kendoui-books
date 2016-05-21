@@ -39,4 +39,5 @@
    * [Creating gists for the catalog app](bd-notes/creating_gists_for_the_catalog_app.md)
 * [Troubleshooting](troubleshooting.md)
    * [Introduction](troubleshooting/introduction.md)
+   * Using gists and GistRun
 
