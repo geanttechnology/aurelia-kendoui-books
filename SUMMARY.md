@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [About this application](about_this_application.md)
-* About Aurelia
+* [About Aurelia](about_aurelia.md)
 * About KendoUI
 * Developers tutorials
 * Developers notes
