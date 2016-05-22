@@ -1,2 +1,2 @@
-# Generation of bindables
+# 6.3 Generation of bindables
 
