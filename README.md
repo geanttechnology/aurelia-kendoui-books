@@ -1,3 +1,3 @@
-# Aurelia KendoUI Bridge Docs
+# Aurelia KendoUI Bridge Documentation
 
-Recreated from the [catalog](http://aurelia-ui-toolkits.github.io/demo-kendo/#/help) application
+
