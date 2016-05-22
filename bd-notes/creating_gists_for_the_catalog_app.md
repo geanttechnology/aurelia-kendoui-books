@@ -1,2 +1,2 @@
-# Creating gists for the catalog app
+# 6.10 Creating gists for the catalog app
 
