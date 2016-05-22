@@ -1,2 +1,2 @@
-# Registry helper class
+# 6.8 Registry helper class
 
