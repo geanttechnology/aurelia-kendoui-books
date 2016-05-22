@@ -1,2 +1,2 @@
-# Harvesting bindable variables
+# 6.8 Harvesting bindable variables
 
