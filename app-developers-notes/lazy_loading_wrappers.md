@@ -4,7 +4,7 @@
 There are two ways of pulling in the wrappers that you need: via the plugin configuration callback ([globalResources](http://aurelia.io/docs.html#/aurelia/framework/1.0.0-beta.1.1.4/doc/api/class/FrameworkConfiguration) equivalent) or `<require>` wrappers in a view.
 
 <br>
-#### 3.1 Plugin configuration callback
+#### 5.3.1 Plugin configuration callback
 
 You may have the following line in `main.js`:
 
@@ -14,7 +14,7 @@ You may have the following line in `main.js`:
 This tells the plugin to load all Kendo PRO wrappers and register them globally (using the [globalResources](http://aurelia.io/docs.html#/aurelia/framework/1.0.0-beta.1.1.4/doc/api/class/FrameworkConfiguration) functionality of the Aurelia framework). That way, you can use these wrappers in any view without having to pull them in. This approach is recommended if you use a subset of Kendo controls (see the "Loading subset of controls" article), and when you use wrappers in many different views.
 
 <br>
-#### 3.2 `<require>` wrappers in views
+#### 5.3.2 `<require>` wrappers in views
 
 A different approach is to `<require>` wrappers in views where needed. This is a more efficient way than using the plugin configuration callback as it does not increase the load time of the entire app, however, pulling in the wrappers via `<require>` takes more work to get right.
 
