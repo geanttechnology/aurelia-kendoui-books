@@ -1,2 +1,2 @@
-# Babel DTS generator
+# 6.4 Babel DTS generator
 
