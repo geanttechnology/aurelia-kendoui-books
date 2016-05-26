@@ -1,9 +1,9 @@
 # 1.2 Navigation guide
-The order of Help Documents section, outlined on the Image 1 below:
+The order of entries in the **[Documents section](http://aurelia-ui-toolkits.github.io/demo-kendo/#/documentation)**, outlined on the Image 1 below:
 <br><br>
 
 <p align=center>
-  <img src="https://cloud.githubusercontent.com/assets/2712405/14414779/7135ecd4-ff65-11e5-8a34-2ae4e1ad2a8c.png"></img>
+  <img src="https://cloud.githubusercontent.com/assets/2712405/15588230/d678e1e6-235a-11e6-9266-b6a783e24246.png"></img>
 <br>
   Image 1
 </p>
