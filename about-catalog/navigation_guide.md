@@ -37,18 +37,18 @@ This **[section](https://aurelia-ui-toolkits.gitbooks.io/kendoui-bridge-docs/con
 
 #### App developers notes
 
-This [section](https://aurelia-ui-toolkits.gitbooks.io/kendoui-bridge-docs/content/developers_notes.html) contains several pages of hints and ideas we believe would be of value to Aurelia application developers that are using KendoUI bridge for user interface development.
+This **[section](https://aurelia-ui-toolkits.gitbooks.io/kendoui-bridge-docs/content/developers_notes.html)** contains several pages of hints and ideas we believe would be of value to Aurelia application developers that are using KendoUI bridge for user interface development.
 <br><br>
 
 #### Troubleshooting
 
-This section contains instructions and recommendations on troubleshooting Aurelia applications using KendoUI bridge for user interface development.
+This **[section](https://aurelia-ui-toolkits.gitbooks.io/kendoui-bridge-docs/content/troubleshooting.html)** contains instructions and recommendations on troubleshooting Aurelia applications using KendoUI bridge for user interface development.
 <br><br>
 
 
 #### Notes on the bridge
 
-Due to relative complexity of some of **[Aurelia KendoUI bridge](https://github.com/aurelia-ui-toolkits/aurelia-kendoui-bridge)** components, this section contains the selected collection of notes that could be useful to developers with interest in the bridge architecture and internal organization..
+Due to relative complexity of some of **[Aurelia KendoUI bridge](https://github.com/aurelia-ui-toolkits/aurelia-kendoui-bridge)** components, this **[section](https://aurelia-ui-toolkits.gitbooks.io/kendoui-bridge-docs/content/bridge_developers_notes.html)** contains the selected collection of notes that could be useful to developers with interest in the bridge architecture and internal organization..
 <br><br>
 
 
