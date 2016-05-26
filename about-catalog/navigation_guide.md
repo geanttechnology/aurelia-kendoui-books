@@ -13,31 +13,31 @@ is chosen to indicate the order of reading in most situations. This article prov
 
 #### About this application
 
-This section which starts with [introduction](#/help/docs/about_this_application/1._introduction) is the collection of articles explaining the purpose and structure of this **[Aurelia-Kendui Components Catalog application](http://aurelia-ui-toolkits.github.io/demo-kendo/)**. The gist of this collection of articles is:
+This **[section](https://aurelia-ui-toolkits.gitbooks.io/kendoui-bridge-docs/content/about_this_application.html)** which starts with [introduction](#/help/docs/about_this_application/1._introduction) is the collection of articles explaining the purpose and structure of this **[Aurelia-Kendui Components Catalog application](http://aurelia-ui-toolkits.github.io/demo-kendo/)**. The gist of this collection of articles is:
 <br><br>
 &nbsp; &nbsp; &nbsp; - If you are a developer looking for a well balanced set of UI components for Aurelia - check the **[catalog of components](http://aurelia-ui-toolkits.github.io/demo-kendo/#/samples)**.
 
-&nbsp; &nbsp; &nbsp; - If you are a developer already knowing about this set of UI components for Aurelia - check **[App developers tutorials](#/help/docs/app_developers_tutorials/1._introduction)**
+&nbsp; &nbsp; &nbsp; - If you are a developer already knowing about this set of UI components for Aurelia - check **[App developers tutorials](https://aurelia-ui-toolkits.gitbooks.io/kendoui-bridge-docs/content/developers_tutorials.html)**
 <br><br>
 
 #### About Aurelia
 
-This section is provided as a help to developers that are familiar with **[KendoUI toolkit](http://www.telerik.com/kendo-ui)** and would like to use it with **[Aurelia framework](http://aurelia.io/)**
+This **[section](https://aurelia-ui-toolkits.gitbooks.io/kendoui-bridge-docs/content/about_aurelia.html)** is provided as a help to developers that are familiar with **[KendoUI toolkit](http://www.telerik.com/kendo-ui)** and would like to use it with **[Aurelia framework](http://aurelia.io/)**
 <br><br>
 
 #### About KendoUI
 
-This section is provided as a help to developers that are familiar with **[Aurelia framework](http://aurelia.io/)** and would like find out more about **[KendoUI toolkit](http://www.telerik.com/kendo-ui)** in order to be able to use **[Aurelia KendoUI bridge](https://github.com/aurelia-ui-toolkits/aurelia-kendoui-bridge)** to develop the user interface for their Aurelia applications.
+This **[section](https://aurelia-ui-toolkits.gitbooks.io/kendoui-bridge-docs/content/about_kendoui.html)** is provided as a help to developers that are familiar with **[Aurelia framework](http://aurelia.io/)** and would like find out more about **[KendoUI toolkit](http://www.telerik.com/kendo-ui)** in order to be able to use **[Aurelia KendoUI bridge](https://github.com/aurelia-ui-toolkits/aurelia-kendoui-bridge)** to develop the user interface for their Aurelia applications.
 <br><br>
 
 #### App developers tutorials
 
-This section starts with the well known **[Aurelia Skeleton Navigation](https://github.com/aurelia/skeleton-navigation/tree/master/skeleton-es2016)** application and the **[Aurelia KendoUI bridge](https://github.com/aurelia-ui-toolkits/skeleton-navigation-kendo)** (creation of which is the subject of the **Bridge developers tutorials**) and teaches you how to add four chosen Aurelia KendoUI **components** (`autocomplete`, `button`, `chart` and `grid`).
+This **[section](https://aurelia-ui-toolkits.gitbooks.io/kendoui-bridge-docs/content/developers_tutorials.html) starts with the well known **[Aurelia Skeleton Navigation](https://github.com/aurelia/skeleton-navigation/tree/master/skeleton-es2016)** application and the **[Aurelia KendoUI bridge](https://github.com/aurelia-ui-toolkits/skeleton-navigation-kendo)** (creation of which is the subject of the **Bridge developers tutorials**) and teaches you how to add four chosen Aurelia KendoUI **components** (`autocomplete`, `button`, `chart` and `grid`).
 <br><br>
 
 #### App developers notes
 
-This section contains several pages of hints and ideas we believe would be of value to Aurelia application developers that are using KendoUI bridge for user interface development.
+This [section](https://aurelia-ui-toolkits.gitbooks.io/kendoui-bridge-docs/content/developers_notes.html) contains several pages of hints and ideas we believe would be of value to Aurelia application developers that are using KendoUI bridge for user interface development.
 <br><br>
 
 #### Troubleshooting
