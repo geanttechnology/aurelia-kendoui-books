@@ -10,9 +10,10 @@ The **[Components Catalog](http://aurelia-ui-toolkits.github.io/demo-kendo/#/sam
 
 #### 2.1 Browsing the catalog
 
-The click on **Components Catalog** menu item (left-most, shown on Image 1 above), followed by the click on **`Most popular`** and click on **`Grid`** button results with the Aurelia KendoUI Controls Catalog rendering the KendoUI basic grid sample. In addition to rendering the grid, the Aurelia KendoUI Controls Catalog also shows the **Samples Toolbar**, which shows all categories of controls, with the **MOST POPULAR** category being select as default. At the moment, this category has only grid control selected as its own default - which explains why is the click on that category results with the same view as it is rendered initially
+The click on **Components Catalog** menu item (left-most, shown on Image 1 above), followed by the click on **`Most popular`** and click on **`Grid`** button results with the Aurelia KendoUI Controls Catalog rendering the KendoUI basic grid sample. In addition to rendering the grid, the Aurelia KendoUI Controls Catalog also shows the **Samples Toolbar**, which shows all categories of controls, with the **GENERIC** category being select as default. 
+
 <br>
-<br>
+
 <p align=center>
   <img src="https://cloud.githubusercontent.com/assets/2712405/13230848/0af301f2-d975-11e5-8421-8d4488a130b6.png"></img>
 <br>
