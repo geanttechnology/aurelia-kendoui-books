@@ -1,18 +1,16 @@
 # 1.3 Catalog of Aurelia KendoUI components.
-Being a catalog is the most likely fashion this application is being used. Invoked via URL: **<a href="http://aurelia-ui-toolkits.github.io/demo-kendo">http://aurelia-ui-toolkits.github.io/demo-kendo</a>** the application renders the view shown below, which features the likely most interesting component -  **grid**, in the context of the "About page".
+The **[Components Catalog](http://aurelia-ui-toolkits.github.io/demo-kendo/#/samples/generic)** is the most often used section of this app. It renders the view shown below,specifically chosen to point out the issue which is very frequent subject of discussion in **[Aurelia KendoUI chat room](https://gitter.im/adriatic/Aurelia-KendoUI)** 
+<br><br>
 
-<br>
 <p align=center>
-  <img src="https://cloud.githubusercontent.com/assets/2712405/13549299/6ba206ce-e2d0-11e5-96e6-a603553e31bd.png"></img>
-<br>
-  Image 1
+  <img src="https://cloud.githubusercontent.com/assets/2712405/15590050/a277e6b8-2363-11e6-94a7-57f041b1a2d8.png"></img>
+ <br><br>
+ Image 1
 </p>
-<br>
-<br>
 
 #### 2.1 Browsing the catalog
 
-The click on **Components Catalog** menu item (left-most, shown on Image 1 above) results with the Aurelia KendoUI Controls Catalog "landing" (default) page which depicts the KendoUI basic grid sample (again as shown on Image 1 above). In addition to rendering the grid, the Aurelia KendoUI Controls Catalog also shows the **Samples Toolbar**, which shows all categories of controls, with the **MOST POPULAR** category being select as default. At the moment, this category has only grid control selected as its own default - which explains why is the click on that category results with the same view as it is rendered initially
+The click on **Components Catalog** menu item (left-most, shown on Image 1 above), followed by the click on **`Most popular`** and click on **`Grid`** button results with the Aurelia KendoUI Controls Catalog rendering the KendoUI basic grid sample. In addition to rendering the grid, the Aurelia KendoUI Controls Catalog also shows the **Samples Toolbar**, which shows all categories of controls, with the **MOST POPULAR** category being select as default. At the moment, this category has only grid control selected as its own default - which explains why is the click on that category results with the same view as it is rendered initially
 <br>
 <br>
 <p align=center>
@@ -36,7 +34,7 @@ Image 3
 <br>
 
 Finally, selecting the **STOCK CHARTS** toolbar item, results with the the view of the stock charts page of this catalog:
-<br>
+
 <br>
 
 <p align=center>
@@ -49,7 +47,7 @@ Image 4
 #### 2.2 Browsing the catalog's code sections
 <br>
 Each of the page showing a KendoUI control converted to an Aurelia component, has the section that shows the component's **view** and **view model**. Here are three consecutive screen-shots showing that information for the Sample grid control on **Image 1** above.
-<br>
+
 
 **Grid view**
 
@@ -58,6 +56,7 @@ Each of the page showing a KendoUI control converted to an Aurelia component, ha
  <br><br>
 Image 5
 </p>
+
 <br>
 
 **Grid view model**
@@ -67,7 +66,7 @@ Image 5
  <br><br>
 Image 6
 </p>
-<br>
+
 
 **Private CSS file**
 
