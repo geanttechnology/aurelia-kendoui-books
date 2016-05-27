@@ -6,7 +6,7 @@ The **[Catalog index](#/catalog-index)** page is designed to provide a quick lau
 <br>
 
 <p align=center>
-  <img src="https://cloud.githubusercontent.com/assets/2712405/13549339/e6e802e8-e2d0-11e5-880e-9982b0177fc5.png"></img>
+  <img src="https://cloud.githubusercontent.com/assets/2712405/15594628/3e79e87e-2385-11e6-92be-0e8d761e6f5e.png"></img>
  <br><br>
 Image 1
 </p>
