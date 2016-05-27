@@ -1,6 +1,6 @@
 # 1.4 Installation
 
-The **[Installation page](#/installation)** contains detailed description of all three installation variants which depend on how do you plan to get **[KendoUI product](http://www.telerik.com/kendo-ui)** from Telerik.
+The **[Installation page](#/installation/index)** contains detailed description of all three installation variants which depend on how do you plan to get **[KendoUI product](http://www.telerik.com/kendo-ui)** from Telerik.
 <br>
 
 You could already have the KendoUI PRO license, or you plan to download the KendoUI PRO evaluation copy - in both such cases you should select the HAVING KENDOUI ALREADY: VENDORS tab which provides all details of the approach where KendoUI is kept in the `vendors` folder in you project.
