@@ -17,6 +17,8 @@ and explaining how to use **KendoUI-core** and **KendoUI Pro** versions of Teler
 As the result we are providing all **completed** tutorials in the **[kendoui-skeleton](https://github.com/aurelia-ui-toolkits/kendoui-skeleton)**, shown below:
 <br><br>
 
+#### _This image needs to be replaced_
+
 <p align=center>
   <img src="https://cloud.githubusercontent.com/assets/2712405/13557141/c392b166-e3b7-11e5-8459-1f1ef60afeb0.png"></img>
  <br><br>
