@@ -1,5 +1,5 @@
 # 4.1 Introduction
-The collection of articles contained in this **App developers tutorials** help section, (_which begins with this article you are reading now_),  presents several short tutorials on adding a few selected Aurelia KendoUI `components` (`autocomplete`, `button`, `chart` and `grid`) ___from___ **[Aurelia-KendoUI-bridge](https://github.com/aurelia-ui-toolkits/aurelia-kendoui-bridge)** Aurelia plugin ___to___ your existing application.
+The collection of articles contained in this **App developers tutorials** help section, (_which begins with this article you are reading now_),  presents several short tutorials on adding a few selected Aurelia KendoUI `components` (`autocomplete`, `button`, `chart` and `grid`) your existing application.
 <br><br>
 
 In order to cover all platforms and tooling choices supported by Aurelia we are starting from the original Aurelia **[skeleton navigation](https://github.com/aurelia/skeleton-navigation)** set of application models:
@@ -11,10 +11,10 @@ In order to cover all platforms and tooling choices supported by Aurelia we are 
    Image 1
 </p>
 
-and showing how to use **KendoUI-core** and **KendoUI Pro** versions of Telerik's KendoUI SDK associated with the **[Aurelia-KendoUI-bridge](https://github.com/aurelia-ui-toolkits/aurelia-kendoui-bridge)** Aurelia plugin.
+and explaining how to use **KendoUI-core** and **KendoUI Pro** versions of Telerik's KendoUI SDK associated with the **[Aurelia-KendoUI-bridge](https://github.com/aurelia-ui-toolkits/aurelia-kendoui-bridge)** Aurelia plugin.
 <br><br>
 
-As the result we are providing all **completed** tutorials in the **[kendoui-templates-repository](https://github.com/aurelia-ui-toolkits/kendoui-templates-repository)**, shown below:
+As the result we are providing all **completed** tutorials in the **[kendoui-skeleton](https://github.com/aurelia-ui-toolkits/kendoui-skeleton)**, shown below:
 <br><br>
 
 <p align=center>
@@ -26,7 +26,9 @@ As the result we are providing all **completed** tutorials in the **[kendoui-tem
 
 ***
 
-**Note:** use these ___completed___ tutorials if you get lost following the tutorial instructions or you just want to see how each of these applications work.
+**Note:** use these ___completed___ tutorials if you get lost following the tutorial instructions or you just want to see how each of these applications work. 
+
+**Caveat** due to frequent changes in Aurelia Framework (something that is normal in early stages of any major software component) we cannt guarantee the correct functioning of these completed tutorials. Since they are provided mostly to show the "global view" of using KendoUI components in an Aurelia application, we hope that this inconvenience will be accepted)
 
 
 ***
