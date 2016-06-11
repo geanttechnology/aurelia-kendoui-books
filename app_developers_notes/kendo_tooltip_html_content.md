@@ -45,6 +45,6 @@ By default the template compilation process is trigged by the Kendo control via 
 
 The tooltip is one of those controls that doesn't call the hook. So templates have to be compiled manually, if you want to take that route. The problem is in the timing, how would you know when the Kendo control has added a template to the DOM so that you can trigger the compilation process? This is tricky, and is different per Kendo control. For example, the grid has a dataBound event that notifies you when the rows have been rendered, but other controls may not have such event.
 
-In my opinion, the best way would be to fix this at the source, by creating a PR to the kendo core repository so that the tooltip calls the angular hook (which we use to start compiling aurelia templates)
+In my opinion, the best way would be to fix this at the source, by creating a PR to the [kendo core repository](https://github.com/telerik/kendo-ui-core) so that the tooltip calls the angular hook (which we use to start compiling aurelia templates)
 
 
