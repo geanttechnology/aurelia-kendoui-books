@@ -25,7 +25,7 @@
    * [Loading a subset of controls](app-developers-notes/loading_a_subset_of_controls.md)
    * [Lazy loading wrappers](app-developers-notes/lazy_loading_wrappers.md)
    * [Running gists](app-developers-notes/running_gists.md)
-   * Kendo Tooltip HTML content
+   * [Kendo Tooltip HTML content](app_developers_notes/kendo_tooltip_html_content.md)
 * [Bridge developers tutorials](bridge_developers_tutorials.md)
 * [Bridge developers notes](bridge_developers_notes.md)
    * [Introduction](bd-notes/introduction.md)
