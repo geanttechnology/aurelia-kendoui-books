@@ -1,12 +1,12 @@
 # 5.5 Kendo Tooltip HTML content
 
-The example illustrating the use of Tooltip with a template behaves differently than most KendoUI Aurelia components, as stated in the Documentation tab on **[this page(http://aurelia-ui-toolkits.github.io/demo-kendo/#/samples/tooltip/content-template)**
+The example illustrating the use of Tooltip with a template behaves differently than most KendoUI Aurelia components, as stated in the Documentation tab on **[this page](http://aurelia-ui-toolkits.github.io/demo-kendo/#/samples/tooltip/content-template)**
 
 _The tooltip does not compile templates like normal controls, so for this particular sample we recommend to use Kendo templates instead_
 
 This was recently mentioned in our support discussions as:
 
-"When I use aurelia repeat syntax in <script ref="template" type="text/x-kendo-template"> it does not do anything. Is there any way to build dynamic template based on HTML, not via javascript?"
+"When I use aurelia repeat syntax in `<script ref="template" type="text/x-kendo-template">` it does not do anything. Is there any way to build dynamic template based on HTML, not via javascript?"
 
 Example
 ```
