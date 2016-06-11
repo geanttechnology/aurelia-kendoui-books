@@ -1,0 +1,2 @@
+# Kendo Tooltip HTML content
+
