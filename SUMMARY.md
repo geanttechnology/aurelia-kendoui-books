@@ -26,7 +26,7 @@
    * [Lazy loading wrappers](app-developers-notes/lazy_loading_wrappers.md)
    * [Running gists](app-developers-notes/running_gists.md)
    * [Kendo Tooltip HTML content](app_developers_notes/kendo_tooltip_html_content.md)
-   * Dynamic content creation
+   * [Dynamic content creation](app_developers_notes/dynamic_content_creation.md)
 * [Bridge developers tutorials](bridge_developers_tutorials.md)
 * [Bridge developers notes](bridge_developers_notes.md)
    * [Introduction](bd-notes/introduction.md)
