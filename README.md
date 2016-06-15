@@ -9,7 +9,6 @@ To simplify even further:
 - use the bridge plugin to provide access to Aurelia KendoUI access to your application. This means that the Aurelia KendoUI bridge is just one of many Javascript libraries organized as Aurelia plugins.
 
 
-<br>
 
 <p align=center>
   <img src="https://cloud.githubusercontent.com/assets/2712405/15679959/cf31a6a0-2721-11e6-8ef5-89174beefc70.png"></img>
