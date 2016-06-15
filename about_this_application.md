@@ -8,7 +8,7 @@
 
 This **[application](http://aurelia-ui-toolkits.github.io/demo-kendo)** is envisioned as a source of all information about the [Aurelia KendoUI](https://github.com/aurelia-ui-toolkits/aurelia-kendoui-bridge) bridge **plugin**, organized as a collection of pages accessible via the **main menu**, shown above.
 
-- **[Components Catalog](http://aurelia-ui-toolkits.github.io/demo-kendo/#/samples/grid/basic-use)** showcase of all KendoUI widgets available in the **form of Aurelia [Components](http://aurelia.io/docs.html#/aurelia/framework/1.0.0-beta.1.2.4/doc/article/creating-components)**
+- **[Components Catalog](http://aurelia-ui-toolkits.github.io/demo-kendo/#/samples/grid/basic-use)** showcase of all KendoUI widgets available in the **form of Aurelia [Components](http://aurelia.io/docs.html#/aurelia/framework/1.0.0-beta.1.2.4/doc/article/creating-components)**.
 - **[About](http://aurelia-ui-toolkits.github.io/demo-kendo/#/about)** - page shown on the image above.
 - **[Installation](http://aurelia-ui-toolkits.github.io/demo-kendo/#/installation)** section explains how to install Telerik [KendoUI Framework](http://www.telerik.com/kendo-ui). (_Note that Aurelia KendoUI bridge requires this framework and the KendoUI bridge user needs to acquire and install it as explained in this section_)
 - **[Catalog index](http://aurelia-ui-toolkits.github.io/demo-kendo/#/catalog-index)** page provides quick access to a specific **[Components Catalog](http://aurelia-ui-toolkits.github.io/demo-kendo/#/samples/grid/basic-use)** page.
