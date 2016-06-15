@@ -1,6 +1,6 @@
 # 1.2 Navigation guide
 The order of entries in the **[Documents section](http://aurelia-ui-toolkits.github.io/demo-kendo/#/documentation)**, outlined on the Image 1 below:
-<br><br>
+<br>
 
 <p align=center>
   <img src="https://cloud.githubusercontent.com/assets/2712405/15588230/d678e1e6-235a-11e6-9266-b6a783e24246.png"></img>
