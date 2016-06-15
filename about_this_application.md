@@ -5,7 +5,7 @@
  <br><br>
 </p>
 
-This [application](http://aurelia-ui-toolkits.github.io/demo-kendo) is designed as a source of all information about the [Aurelia KendoUI](https://github.com/aurelia-ui-toolkits/aurelia-kendoui-bridge) bridge **plugin**:
+This [application](http://aurelia-ui-toolkits.github.io/demo-kendo) is envisioned as a source of all information about the [Aurelia KendoUI](https://github.com/aurelia-ui-toolkits/aurelia-kendoui-bridge) bridge **plugin**:
 
 - **[Components Catalog](http://aurelia-ui-toolkits.github.io/demo-kendo/#/samples/grid/basic-use)** menu item invokes the section which is the showcase of all KendoUI widgets, now available available in the form of Aurelia [Components](http://aurelia.io/docs.html#/aurelia/framework/1.0.0-beta.1.2.4/doc/article/creating-components)
 
