@@ -6,4 +6,3 @@
  <br><br>
 </p>
 
-This chapter is a collection of notes written for developers interested in building Aurelia bridges
