@@ -1,5 +1,5 @@
 # 1.2 Navigation guide
-The order of entries in the **[Documents section](http://aurelia-ui-toolkits.github.io/demo-kendo/#/documentation)**, outlined on the Image 1 below:
+The order of entries in the **[Documents section](http://aurelia-ui-toolkits.github.io/demo-kendo/#/documentation)**, outlined on the Image 1 below, is chosen to indicate the order of reading in most situations. This article provides some additional hints about the content of each section and why you might be interested to read it, possibly out of the "natural" sequence defined in Image 1.
 <br>
 
 <p align=center>
@@ -8,8 +8,6 @@ The order of entries in the **[Documents section](http://aurelia-ui-toolkits.git
   Image 1
 </p>
 
-is chosen to indicate the order of reading in most situations. This article provides some additional hints about the content of each section and why you might be interested to read it, possibly out of the "natural" sequence defined in Image 1.
-<br>
 
 #### About this application
 
