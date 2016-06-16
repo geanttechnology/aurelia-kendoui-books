@@ -9,7 +9,6 @@ With its strong focus on developer experience, Aurelia can enable you to not onl
 
 Over the last 10 years we've labored in building a variety of front-end libraries and frameworks on several different platforms. These libraries have been used to develop thousands of applications for virtually every industry. We've harnessed this rich experience and used it to build Aurelia, the most advanced and developer friendly front-end framework today. We're sure you're going to love it.
 
-<br>
 ### Durandal Inc.
 Aurelia isn't just another framework. It's an official product of Durandal, Inc., a Delaware C-Corp dedicated to advancing rich web app development by creating powerful libraries, frameworks and tools.
 We have a long term vision.
