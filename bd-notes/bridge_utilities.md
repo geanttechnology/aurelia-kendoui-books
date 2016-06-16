@@ -6,7 +6,7 @@
 This document describes the use of several utilities added by Aurelia UI Toolkits team to make the task of creating an Aurelia plugin simpler.
 <br><br>
 
-[constants.js](#constants)
+[[`constants.js`](#constants]
 In order to make the plugin a bit more maintainable, we use the [`constants.js`](#constants) file throughout the entire plugin. Currently, this file contains the conventions we use for the plugin. More specifically, the `k-on-` events and `k-` property conventions.
 <br><br>
 
