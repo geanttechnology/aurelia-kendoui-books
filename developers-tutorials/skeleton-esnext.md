@@ -15,7 +15,7 @@ This tutorial (like all others in this `App developers tutorials` section) is or
 <a id="core-anchor"></a>
 ### 2.1 Using KendoUI-core
 
-This chapter explains the steps that need to be taken to ___transform the original___ **[skeleton-es2016](https://github.com/aurelia/skeleton-navigation/tree/master/skeleton-es2016)** application, using the KendoUI Core:
+This chapter explains the steps that need to be taken to ___add several KendoUI components to the standard___ **[skeleton-esnext](https://github.com/aurelia/skeleton-navigation/tree/master/skeleton-esnext)** application, using the **[KendoUI Core](https://aurelia-ui-toolkits.gitbooks.io/kendoui-sdk-installation/content/jspm_based-installation/kendoui_core.html)** package:
 <br><br>
 
 <p align=center>
