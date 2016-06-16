@@ -15,7 +15,6 @@ Here is an example of the KendoUI component with added **RUN** functionality:
 </p>
 
 
-<br><br>
 Click on the **RUN** button results with this specific grid example running as a gist in the new browser tab:
 <br><br>
 
@@ -24,7 +23,8 @@ Click on the **RUN** button results with this specific grid example running as a
  <br><br>
 </p>
 
-<br><br>
+
 This allows for a great deal more experimentation with any KendoUI component in a completely interactive way.
 
-<br><br>
+
+***
