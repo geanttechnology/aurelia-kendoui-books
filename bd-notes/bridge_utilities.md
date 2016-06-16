@@ -45,7 +45,7 @@ The `WidgetBase` is the base class from which all wrappers inherit. The purpose 
 * * *
 
 <br><br>
-<a name="constants"></a>
+<a id="constants"></a>
 File `constants.js`
 <br>
 ```javascript
@@ -60,7 +60,7 @@ export const constants = {
 <br><br>
 
 
-<a name="control-properties"></a>
+<a id="control-properties"></a>
 File `control-properties.js`
 <br>
 ```javascript
@@ -122,7 +122,7 @@ export class ControlProperties {
 * * *
 <br>
 
-<a name="decorators"></a>
+<a id="decorators"></a>
 File `decorators.js`
 <br>
 ```javascript
@@ -169,7 +169,7 @@ export function generateBindables(controlName: string) {
 * * *
 <br>
 
-<a name="k-template"></a>
+<a id="k-template"></a>
 File `k-template.js`
 <br>
 ```javascript
@@ -202,7 +202,7 @@ export class Template {
 * * *
 <br>
 
-<a name="options-builder"></a>
+<a id="options-builder"></a>
 File `options-builder.js`
 <br>
 ```javascript
@@ -254,7 +254,7 @@ export class OptionsBuilder {
 * * *
 <br>
 
-<a name="template-compiler"></a>
+<a id="template-compiler"></a>
 File `template-compiler.js`
 <br>
 ```javascript
@@ -429,7 +429,7 @@ export class TemplateCompiler {
 * * *
 <br>
 
-<a name="utils"></a>
+<a id="utils"></a>
 File `utils.js`
 <br>
 ```javascript
@@ -587,7 +587,7 @@ export function fireKendoEvent(element: Element, name: string, data = {}) {
 * * *
 <br>
 
-<a name="widget-base"></a>
+<a id="widget-base"></a>
 File `widget-base.js`
 <br>
 ```javascript
