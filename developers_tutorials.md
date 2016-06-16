@@ -1,4 +1,4 @@
-# Developers tutorials
+# Application Developer tutorials
 <br> <br>
 <p align=center>
   <img
