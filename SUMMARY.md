@@ -15,7 +15,7 @@
    * [Why choose KendoUI](about-kendoui/why_choose_kendoui.md)
 * [Developers tutorials](developers_tutorials.md)
    * [Introduction](developers-tutorials/introduction.md)
-   * [es2016](developers-tutorials/es2016.md)
+   * [skeleton-esnext](developers-tutorials/es2016.md)
    * [es2016-asp.net5](developers-tutorials/es2016-aspnet5.md)
    * [typescript](developers-tutorials/typescript.md)
    * [typescript-asp.net5](developers-tutorials/typescript-aspnet5.md)
