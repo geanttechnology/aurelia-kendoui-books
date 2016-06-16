@@ -24,8 +24,8 @@ If instead, you wish to use only a subset of KendoUI components - say, kendoButt
 
 `.kendoTemplateSupport()` - will load the `<k-template>` custom element necessary for custom templates in a Kendo control.
 
-`.useValueConverters();` - will load the value convertes around useful Kendo functions. **[This sample](#/samples/valueconverters)** demonstrates these value converters.
+`.useValueConverters();` - will load the value convertes around useful Kendo functions. **[This sample](http://aurelia-ui-toolkits.github.io/demo-kendo/#/samples/valueconverters)** demonstrates these value converters.
 <br>
 
 #### Mobile applications
-More information about mobile applications with Kendo controls can be found on [this website](http://www.kendouimobileguide.com/)
+More information about mobile applications with Kendo controls can be found on **[this website](http://www.kendouimobileguide.com/)**
