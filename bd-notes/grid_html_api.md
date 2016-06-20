@@ -1,4 +1,4 @@
-# 6.6 Grid HTML api
+# 6.5 Grid HTML api
 
 
 #### How is the KendoUI Grid component being used?
