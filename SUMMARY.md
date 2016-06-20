@@ -20,6 +20,7 @@
    * [typescript](developers-tutorials/typescript.md)
    * [typescript-asp.net5](developers-tutorials/typescript-aspnet5.md)
    * [webpack](developers-tutorials/webpack.md)
+* [On bundling](bd-notes/on_bundling.md)
 * [Developers notes](developers_notes.md)
    * [Current limitations](app-developers-notes/current_limitations.md)
    * [Loading a subset of controls](app-developers-notes/loading_a_subset_of_controls.md)
