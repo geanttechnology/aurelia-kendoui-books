@@ -1,4 +1,4 @@
-# 6.7 Template compilation
+# 6.6 Template compilation
 
 #### Introduction
 Many Kendo controls allow developers to use templates. Take the Autocomplete control as an example:
