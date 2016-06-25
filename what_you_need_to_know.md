@@ -3,27 +3,29 @@ There are a few things you should know when working with the aurelia-kendoui-bri
 <br>
 <br>
 #### Conventions
-Just like Aurelia, we use conventions. All our custom elements and custom attributes use the `k-` and `k-on-` conventions.
+Just like Aurelia, we use conventions. All custom elements and custom attributes use the `ak-` prefix, all properties are prefixed with `k-` and all events use the `k-on-` prefix.
 
 For example, the [kendo API documentation](http://docs.telerik.com/kendo-ui/api/javascript/ui/button#configuration-enable) of the Button control, mentions an `enable` property.
 
 This translates into this HTML tag:
 
-`<input k-button="k-enable.bind: true"/>`
+    <input ak-button="k-enable.bind: true"/>
 
-Notice the `k-` convention for the attribute and for the property.
+Here we are using the `ak-` prefix for the button custom attribute and the `k-` prefix for the `enable` property of the button.
 <br><br>
 
-It is also possible to delegate Kendo events. We use the `k-on-` convention here.
+It is also possible to delegate Kendo events. The `k-on-` prefix has to be used here.
 
 To illustrate this, we'll take a look at the [open](http://docs.telerik.com/kendo-ui/api/javascript/ui/autocomplete#events-open) event of the Autocomplete control. This translates into:
 <br><br>
 
-	  <input k-autocomplete
-	         k-on-open.delegate="myFunction($event.detail)">
+    <ak-autocomplete k-data-source.bind="items" k-on-open.delegate="myFunction($event.detail)">
+      <input style="width: 100%;">
+    </ak-autocomplete>
+    
 <br><br>
 
-Notice the `k-on-` prefix. The $event's detail property contains the original event raised by the Kendo control. In order to pass this to the `myFunction` function directly, we use `$event.detail`.
+Notice the `k-on-` prefix for the autocomplete custom element and the `k-on-` prefix for the `open` event of the autocomplete control. The $event's detail property contains the original event raised by the Kendo control. In order to pass this to the `myFunction` function directly, we use `$event.detail` in the view directly.
 <br>
 <br>
 #### Binding
@@ -49,7 +51,9 @@ A couple of examples:
 ### How to get to the Kendo control
 Every wrapper exports a `k-widget` property that you can two-way bind to.
 
-	<input k-autocomplete="k-widget.two-way: autocomplete"/>
+      <ak-autocomplete k-data-source.bind="items" k-widget.bind="autocomplete">
+        <input style="width: 100%;">
+      </ak-autocomplete>
 <br><br>
 
 You can then use the `autocomplete` variable to communicate with the Kendo widget.
@@ -58,8 +62,6 @@ You can then use the `autocomplete` variable to communicate with the Kendo widge
 <br><br>
 
 #### Taskqueue
-(We have made a `@delayed` decorator to make this easier. Check out [this sample](http://aurelia-ui-toolkits.github.io/demo-kendo/#/samples/generic/use-widget-on-initialization))
-
 	import {TaskQueue, inject} from 'aurelia-framework';
 
 	@inject(TaskQueue)
@@ -74,5 +76,7 @@ You can then use the `autocomplete` variable to communicate with the Kendo widge
 			});
 		}
 	}
+    
+**(We have made a `@delayed` decorator to make this easier. Check out [this sample](http://aurelia-ui-toolkits.github.io/demo-kendo/#/samples/generic/use-widget-on-initialization))**
 <br>
 <br>
