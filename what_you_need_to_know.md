@@ -35,7 +35,7 @@ Using Aurelia's `.bind` syntax on a property allows it to do two things: binding
 If you would use `k-visible="true"` without `.bind`, the `k-visible` property will contain the value of "true" (as string, not as boolean).
 <br>
 
-By adding `.bind` after the property name, it is parsed by Aurelia's binding syntax as a boolean, which is what we need. `k-visible.bind="true"` is the correct syntax. So for integers, strings and objects, use `.bind`.
+By adding `.bind` after the property name, it is parsed by Aurelia's binding syntax as a boolean, which is what we need. `k-visible.bind="true"` is the correct syntax. So for integers, strings and objects, and function calls use `.bind`.
 <br><br>
 
 A couple of examples:
@@ -45,6 +45,7 @@ A couple of examples:
 	k-max-integer-value.bind="15"
 	k-type.bind="{ name: 'a' }"
 	k-title.bind="aPropertyOnMyViewModel"
+    k-mask.bind="getMask()"
 	k-my-array-value.bind="['a', 'b']"
 <br>
 <br>
