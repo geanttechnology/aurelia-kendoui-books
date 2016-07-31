@@ -28,7 +28,7 @@ To illustrate this, we'll take a look at the [open](http://docs.telerik.com/kend
 Notice the `k-on-` prefix for the autocomplete custom element and the `k-on-` prefix for the `open` event of the autocomplete control. The $event's detail property contains the original event raised by the Kendo control. In order to pass this to the `myFunction` function directly, we use `$event.detail` in the view directly.
 <br>
 <br>
-#### Binding
+#### When to .bind and not to .bind
 Using Aurelia's `.bind` syntax on a property allows it to do two things: binding to a variable and type parsing.
 <br>
 
@@ -81,3 +81,45 @@ You can then use the `autocomplete` variable to communicate with the Kendo widge
 **(We have made a `@delayed` decorator to make this easier. Check out [this sample](http://aurelia-ui-toolkits.github.io/demo-kendo/#/samples/generic/use-widget-on-initialization))**
 <br>
 <br>
+
+
+#### Two-way binding
+Kendo controls do not support two-way binding, as Kendo controls are not monitoring properties for changes. So when you two-way bind to a property, the changes will not be picked up by the control and will have no effect. There are two ways to deal with this issue:
+
+- call API functions on the control
+- recreate the control after changing a property
+
+** Calling API functions on the control**  
+Lets say that you wanted to change the title of the Kendo Window. The k-title property does not support two-way binding but we can call a function on the Kendo control to change the title. We know that we can because the [kendo documentation](http://docs.telerik.com/kendo-ui/api/javascript/ui/window#methods) of the Window mentions a `title` function.
+
+So the following will change the window title:
+```
+<div ak-window="k-widget.two-way: myWindow"></div>
+
+changeTitle() {
+   this.myWindow.title('Hello world');
+}
+```
+
+** Recreate the control**  
+Try to avoid this as much as possible, by using an API function (see above) if it exists. There is a recreate function on the **wrapper** (not the Kendo control) that recreates the Kendo control. 
+
+```
+<div ak-window="k-title.bind: title" ak-window.ref="myWindowVM></div>
+
+changeTitle() {
+  this.title = 'a title';
+  // give aurelia's binding system time to persist the change to the ak-window wrapper
+  setTimeout(() => {
+    this.myWindowVM.recreate();
+  }});
+}
+```
+
+ 
+**Exceptions**  
+In order to make your life a bit easier we have added support for two-way binding on a few properties that are commonly used. The following properties support two-way binding:
+
+- k-value
+- k-enabled
+- k-readonly
