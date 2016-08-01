@@ -123,3 +123,9 @@ In order to make your life a bit easier we have added support for two-way bindin
 - k-value
 - k-enabled
 - k-readonly
+
+
+### Who loads Kendo?
+Aurelia-kendoui-bridge wrappers assume that Kendo controls have been loaded before the wrappers are used. For example, if you use `<button ak-button>my button</button>` then you will want to make sure that the Kendo Button control has been loaded. The bridge does not care about **how** you load Kendo controls, just that you do.
+
+
