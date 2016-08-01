@@ -129,6 +129,14 @@ In order to make your life a bit easier we have added support for two-way bindin
 Aurelia-kendoui-bridge assumes that Kendo controls have been loaded before a wrapper is used. For example, if you use `<button ak-button>my button</button>` then you will want to make sure that the Kendo Button control has been loaded. The bridge does not care about **how** you load Kendo controls, just that you do.
 
 ### How to load aurelia-kendoui-bridge custom elements / attributes
-The recommended way to load aurelia-kendoui-bridge custom elements and attributes is via the `<require>` element.
+The recommended way to load aurelia-kendoui-bridge custom elements and attributes is via the `<require>` element. This way your application's startup will not be slowed down, and wrappers will be loaded on demand. 
 
+Alternatively, you may want to load wrappers on startup. This is possible via `main.js`. A callback can be provided when configuring the plugin:
 
+`.plugin('aurelia-kendoui-bridge', kendo => kendo.core())`
+
+This would load all aurelia-kendoui-bridge custom elements / attributes of the Kendo Core suite for you.
+
+`.plugin('aurelia-kendoui-bridge', kendo => kendo.pro())` does the same, but then for the Kendo Pro suite.
+
+`.plugin('aurelia-kendoui-bridge', kendo => kendo.detect())` automatically detects which Kendo controls have been loaded (via index.html) and loads the matching aurelia-kendoui-bridge custom elements / attributes.
