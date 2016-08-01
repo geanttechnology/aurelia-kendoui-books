@@ -126,6 +126,32 @@ In order to make your life a bit easier we have added support for two-way bindin
 
 
 ### Who loads Kendo?
-Aurelia-kendoui-bridge wrappers assume that Kendo controls have been loaded before the wrappers are used. For example, if you use `<button ak-button>my button</button>` then you will want to make sure that the Kendo Button control has been loaded. The bridge does not care about **how** you load Kendo controls, just that you do.
+Aurelia-kendoui-bridge assumes that Kendo controls have been loaded before a wrapper is used. For example, if you use `<button ak-button>my button</button>` then you will want to make sure that the Kendo Button control has been loaded. The bridge does not care about **how** you load Kendo controls, just that you do.
 
+### How to load aurelia-kendoui-bridge custom elements / attributes
+The recommended way to load aurelia-kendoui-bridge custom elements and attributes is via the `<require>` element.
+
+| Kendo control | Custom elements / attributes
+| -- | -- |
+| Autocomplete | aurelia-kendoui-bridge/autocomplete/autocomplete |
+| Barcode | aurelia-kendoui-bridge/barcode/barcode |
+| Button | aurelia-kendoui-bridge/button/button |
+| ButtonGroup | aurelia-kendoui-bridge/buttongroup/buttongroup |
+| Calendar | aurelia-kendoui-bridge/calendar/calendar |
+| Chart | aurelia-kendoui-bridge/chart/chart <br> aurelia-kendoui-bridge/chart/sparkline <br> aurelia-kendoui-bridge/chart/stock <br> aurelia-kendoui-bridge/chart/treemap |
+| Colorpalette | aurelia-kendoui-bridge/colorpalette/colorpalette |
+| Colorpicker | aurelia-kendoui-bridge/colorpicker/colorpicker |
+| Combobox | aurelia-kendoui-bridge/combobox/combobox |
+| ContextMenu | aurelia-kendoui-bridge/contextmenu/contextmenu |
+| DatePicker | aurelia-kendoui-bridge/datepicker/datepicker |
+| DatetimePicker | aurelia-kendoui-bridge/datetimepicker/datetimepicker |
+| Diagram | aurelia-kendoui-bridge/diagram/diagram |
+| Draggable | aurelia-kendoui-bridge/draggable/draggable |
+| DropTarget | aurelia-kendoui-bridge/drop-target/drop-target <br> drop-target-area |
+| Dropdownlist | aurelia-kendoui-bridge/dropdownlist/dropdownlist |
+| Editor | aurelia-kendoui-bridge/editor/editor |
+| Flatcolorpicker | aurelia-kendoui-bridge/flatcolorpicker/flatcolorpicker |
+| Gantt | aurelia-kendoui-bridge/gantt/gantt |
+| Gauges | aurelia-kendoui-bridge/gauges/gauges |
+| Grid | aurelia-kendoui-bridge/grid/grid <br> aurelia-kendoui-bridge/grid/col |
 
