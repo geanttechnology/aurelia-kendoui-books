@@ -1,14 +1,14 @@
-# What you need to know
+# 5.9 What you need to know
 There are a few things you should know when working with the aurelia-kendoui-bridge.
 
 <br>
-### Who loads Kendo?
+### 5.9.1 Who loads Kendo?
 Aurelia-kendoui-bridge assumes that Kendo controls have been loaded before a wrapper is used. For example, if you use `<button ak-button>my button</button>` then you will want to make sure that the Kendo Button control has been loaded. The bridge does not care about **how** you load Kendo controls, just that you do.
 
 <br>
 <br>
 
-### How to load aurelia-kendoui-bridge custom elements / attributes
+### 5.9.2 How to load aurelia-kendoui-bridge custom elements / attributes
 The recommended way to load aurelia-kendoui-bridge custom elements and attributes is via the `<require>` element. This way your application's startup will not be slowed down, and wrappers will be loaded on demand. 
 
 Each sample on the [catalog](http://aurelia-ui-toolkits.github.io/demo-kendo/) has a "imports" button. Clicking this button will show you relevant `<require>` statements that you can copy paste into your app.
@@ -26,7 +26,7 @@ The `kendo.core()` call will load all aurelia-kendoui-bridge custom elements / a
 
 <br>
 <br>
-#### Conventions
+### 5.9.3 Conventions
 Just like Aurelia, we use conventions. All custom elements and custom attributes use the `ak-` prefix, all properties are prefixed with `k-` and all events use the `k-on-` prefix.
 
 For example, the [kendo API documentation](http://docs.telerik.com/kendo-ui/api/javascript/ui/button#configuration-enable) of the Button control, mentions an `enable` property.
@@ -54,7 +54,7 @@ Notice the `k-on-` prefix for the autocomplete custom element and the `k-on-` pr
 <br>
 <br>
 
-#### When to .bind and not to .bind
+### 5.9.4 When to .bind and not to .bind
 Using Aurelia's `.bind` syntax on a property allows it to do two things: binding to a variable and type parsing.
 <br>
 
@@ -75,7 +75,7 @@ A couple of examples:
 	k-my-array-value.bind="['a', 'b']"
 <br>
 <br>
-### How to get to the Kendo control
+### 5.9.5 How to get to the Kendo control
 Every wrapper exports a `k-widget` property that you can two-way bind to.
 
       <ak-autocomplete k-data-source.bind="items" k-widget.bind="autocomplete">
@@ -88,7 +88,8 @@ You can then use the `autocomplete` variable to communicate with the Kendo widge
 **IMPORTANT**: **the binding system has not finished in `attached()` causing the bound variable (`autocomplete` in the sample above) to be undefined. If you need to communicate with the widget from inside the `attached` or `bind` callback, use either the `view-model.ref` approach or use the taskque (sample below).**
 <br><br>
 
-#### Taskqueue
+**Taskqueue**  
+
 	import {TaskQueue, inject} from 'aurelia-framework';
 
 	@inject(TaskQueue)
@@ -109,7 +110,7 @@ You can then use the `autocomplete` variable to communicate with the Kendo widge
 <br>
 <br>
 
-#### Two-way binding
+### 5.9.6 Two-way binding
 Kendo controls do not support two-way binding, as Kendo controls are not monitoring properties for changes. So when you two-way bind to a property, the changes will not be picked up by the control and will have no effect. There are two ways to deal with this issue:
 
 - call API functions on the control
