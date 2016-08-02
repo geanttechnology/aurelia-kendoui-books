@@ -1,5 +1,29 @@
 # What you need to know
 There are a few things you should know when working with the aurelia-kendoui-bridge.
+
+<br>
+### Who loads Kendo?
+Aurelia-kendoui-bridge assumes that Kendo controls have been loaded before a wrapper is used. For example, if you use `<button ak-button>my button</button>` then you will want to make sure that the Kendo Button control has been loaded. The bridge does not care about **how** you load Kendo controls, just that you do.
+
+<br>
+<br>
+
+### How to load aurelia-kendoui-bridge custom elements / attributes
+The recommended way to load aurelia-kendoui-bridge custom elements and attributes is via the `<require>` element. This way your application's startup will not be slowed down, and wrappers will be loaded on demand. 
+
+Each sample on the [catalog](http://aurelia-ui-toolkits.github.io/demo-kendo/) has a "imports" button. Clicking this button will show you relevant `<require>` statements that you can copy paste into your app.
+![img](http://i.imgur.com/IPLbhFR.png)
+
+Alternatively, you may want to load wrappers on startup. This is possible via `main.js`. A callback can be provided when configuring the plugin:
+
+`.plugin('aurelia-kendoui-bridge', kendo => kendo.core())`
+
+The `kendo.core()` call will load all aurelia-kendoui-bridge custom elements / attributes of the Kendo Core suite for you.
+
+`.plugin('aurelia-kendoui-bridge', kendo => kendo.pro())` does the same, but then for the Kendo Pro suite.
+
+`.plugin('aurelia-kendoui-bridge', kendo => kendo.detect())` automatically detects which Kendo controls have been loaded (via index.html) and loads the matching aurelia-kendoui-bridge custom elements / attributes. This is very useful when you use `kendo.custom.min.js` (composed file from the Telerik website)
+
 <br>
 <br>
 #### Conventions
@@ -26,8 +50,10 @@ To illustrate this, we'll take a look at the [open](http://docs.telerik.com/kend
 <br><br>
 
 Notice the `k-on-` prefix for the autocomplete custom element and the `k-on-` prefix for the `open` event of the autocomplete control. The $event's detail property contains the original event raised by the Kendo control. In order to pass this to the `myFunction` function directly, we use `$event.detail` in the view directly.
+
 <br>
 <br>
+
 #### When to .bind and not to .bind
 Using Aurelia's `.bind` syntax on a property allows it to do two things: binding to a variable and type parsing.
 <br>
@@ -79,9 +105,9 @@ You can then use the `autocomplete` variable to communicate with the Kendo widge
 	}
     
 **(We have made a `@delayed` decorator to make this easier. Check out [this sample](http://aurelia-ui-toolkits.github.io/demo-kendo/#/samples/generic/use-widget-on-initialization))**
-<br>
-<br>
 
+<br>
+<br>
 
 #### Two-way binding
 Kendo controls do not support two-way binding, as Kendo controls are not monitoring properties for changes. So when you two-way bind to a property, the changes will not be picked up by the control and will have no effect. There are two ways to deal with this issue:
@@ -123,23 +149,3 @@ In order to make your life a bit easier we have added support for two-way bindin
 - k-value
 - k-enabled
 - k-readonly
-
-
-### Who loads Kendo?
-Aurelia-kendoui-bridge assumes that Kendo controls have been loaded before a wrapper is used. For example, if you use `<button ak-button>my button</button>` then you will want to make sure that the Kendo Button control has been loaded. The bridge does not care about **how** you load Kendo controls, just that you do.
-
-### How to load aurelia-kendoui-bridge custom elements / attributes
-The recommended way to load aurelia-kendoui-bridge custom elements and attributes is via the `<require>` element. This way your application's startup will not be slowed down, and wrappers will be loaded on demand. 
-
-Each sample on the [catalog](http://aurelia-ui-toolkits.github.io/demo-kendo/) has a "imports" button. Clicking this button will show you relevant `<require>` statements that you can copy paste into your app.
-![img](http://i.imgur.com/IPLbhFR.png)
-
-Alternatively, you may want to load wrappers on startup. This is possible via `main.js`. A callback can be provided when configuring the plugin:
-
-`.plugin('aurelia-kendoui-bridge', kendo => kendo.core())`
-
-The `kendo.core()` call will load all aurelia-kendoui-bridge custom elements / attributes of the Kendo Core suite for you.
-
-`.plugin('aurelia-kendoui-bridge', kendo => kendo.pro())` does the same, but then for the Kendo Pro suite.
-
-`.plugin('aurelia-kendoui-bridge', kendo => kendo.detect())` automatically detects which Kendo controls have been loaded (via index.html) and loads the matching aurelia-kendoui-bridge custom elements / attributes. This is very useful when you use `kendo.custom.min.js` (composed file from the Telerik website)
