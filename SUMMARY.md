@@ -31,7 +31,7 @@
    * [Bundling step by step instructions](app_developers_notes/bundlingstep_by_step_instructions_md.md)
    * [What you need to know](what_you_need_to_know.md)
    * [Localization](localization.md)
-   * Prevent JSPM from loading jQuery
+   * [Prevent JSPM from loading jQuery](app_developer_notes/prevent_jspm_from_loading_jquery.md)
 * [Bridge developers tutorials](bridge_developers_tutorials.md)
 * [Bridge developers notes](bridge_developers_notes.md)
    * [Introduction](bd-notes/introduction.md)
