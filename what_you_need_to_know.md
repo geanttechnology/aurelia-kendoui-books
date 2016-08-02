@@ -131,12 +131,15 @@ Aurelia-kendoui-bridge assumes that Kendo controls have been loaded before a wra
 ### How to load aurelia-kendoui-bridge custom elements / attributes
 The recommended way to load aurelia-kendoui-bridge custom elements and attributes is via the `<require>` element. This way your application's startup will not be slowed down, and wrappers will be loaded on demand. 
 
+Each sample on the [catalog](http://aurelia-ui-toolkits.github.io/demo-kendo/) has a "imports" button. Clicking this button will show you relevant `<require>` statements that you can copy paste into your app.
+![img](http://i.imgur.com/IPLbhFR.png)
+
 Alternatively, you may want to load wrappers on startup. This is possible via `main.js`. A callback can be provided when configuring the plugin:
 
 `.plugin('aurelia-kendoui-bridge', kendo => kendo.core())`
 
-This would load all aurelia-kendoui-bridge custom elements / attributes of the Kendo Core suite for you.
+The `kendo.core()` call will load all aurelia-kendoui-bridge custom elements / attributes of the Kendo Core suite for you.
 
 `.plugin('aurelia-kendoui-bridge', kendo => kendo.pro())` does the same, but then for the Kendo Pro suite.
 
-`.plugin('aurelia-kendoui-bridge', kendo => kendo.detect())` automatically detects which Kendo controls have been loaded (via index.html) and loads the matching aurelia-kendoui-bridge custom elements / attributes.
+`.plugin('aurelia-kendoui-bridge', kendo => kendo.detect())` automatically detects which Kendo controls have been loaded (via index.html) and loads the matching aurelia-kendoui-bridge custom elements / attributes. This is very useful when you use `kendo.custom.min.js` (composed file from the Telerik website)
