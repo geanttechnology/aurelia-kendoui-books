@@ -1,4 +1,4 @@
-# Aurelia KendoUI Bridge Documentation - master
+# Aurelia KendoUI Bridge Documentation
 
 <br>
 This document organized as a [Gitbook](gitbook.com) book contains all existing information about Aurelia KendoUI bridge plugin.
